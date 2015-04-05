@@ -1,4 +1,3 @@
-require 'aws-sdk'
 module RMOTION
   class Aws
     def initialize(key, secret_key)
