@@ -13,7 +13,7 @@ module RMOTION
     end
 
     def test
-      keys = ["@key","@secret_key"]
+      keys = [@key,@secret_key]
       instances = ["instance1","instance2"]
       return ({
         :keys => keys, 
